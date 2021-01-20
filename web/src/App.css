@@ -1,0 +1,139 @@
+body {
+  text-align: center;
+}
+.app-heading{
+  font-family: 'Prompt', sans-serif;
+  font-size: 60px;
+  margin: 0px;
+  padding: 10px;
+  color: #2e9bdc;
+}
+
+.app-searchBox {
+  padding-bottom: 40px;
+  
+}
+
+.app-searchBox input {
+  font-family: 'Prompt', sans-serif;
+  width: 1000px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+.trip-box-title {
+  font-size: 20x;
+  font-weight: bold;
+  margin: 0px;
+}
+
+
+.trip-list-center-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.trip-box {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 600px;
+  height: 300px;
+}
+
+.trip-box-profile {
+  width: 300px;
+}
+
+.trip-box-profile-image {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.trip-box-detail {
+  text-align: left;
+  width: 400px;
+}
+
+div.trip-box-detail-title {
+
+  font-weight: bold;
+  font-size: 20px;
+	height:15;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 370px;
+}
+
+a.trip-box-detail-title{
+  font-family: 'Prompt', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.trip-box-detail-body-text {
+  font-family: 'Prompt', sans-serif;
+  color:#9b9b9b;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height:14pt;
+	height:52pt;
+  margin-right: auto;
+  margin-left: auto;
+  width: 370px;
+}
+
+.trip-box-detail-body-readmore {
+  font-family: 'Prompt', sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+.trip-box-detail-tag{
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  width: 370px;
+}
+
+.trip-box-detail-tag-title{
+  display: inline;
+  font-family: 'Prompt', sans-serif;
+  font-size: 10px;
+  color:#9b9b9b;
+}
+
+.trip-box-detail-tag-body {
+  font-family: 'Prompt', sans-serif;
+  font-size: 10px;
+  color:#9b9b9b;
+  text-decoration: underline;
+  margin: 0px 2px 0px 2px;
+  display: inline;
+  width: 370px;
+}
+
+.trip-box-detail-images{
+  margin-right: auto;
+  margin-left: auto;
+  width: 370px;
+}
+
+.trip-box-detail-image{
+  margin: 5px 10px 5px 0px;
+  display: inline;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 15%;
+}
